@@ -124,17 +124,17 @@
 }
 
 .ui-widget-header.wc-toolbar {
-	overflow: hidden;
-	margin: 0;
-	box-sizing: border-box;
+  overflow: hidden !important;
+  margin: 0 !important;
+  box-sizing: border-box !important;
 }
 
 .wc-title {
-	margin: 0;
+  margin: 0 !important;
 }
 
 @media screen and (max-width: 524px) {
-	.wc-display {
-		display: none;
-	}
+  .wc-display {
+    display: none !important;
+  }
 }
