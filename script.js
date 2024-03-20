@@ -26,3 +26,9 @@ function clownSchool() {
 		d.innerText = d.innerText.replace("Школа лидеров", "Школа клоунов");
 	}
 }
+
+
+let style = document.createElement("link");
+style.setAttribute("rel", "stylesheet");
+style.setAttribute("href", "https://yelkar.github.io/StudentPortalCustom/style.css");
+document.body.appendChild(style);
