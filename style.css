@@ -75,7 +75,7 @@
 .ui-widget-header.wc-toolbar {
   display: flex !important;
   gap: 20px !important;
-  justify-content: space-between !important;
+  justify-content: space-around !important;
   padding: 5px 20px !important;
   box-sizing: border-box !important;
 }
@@ -83,7 +83,7 @@
 .ui-buttonset {
   display: flex !important;
   gap: 10px !important;
-  justify-content: space-between !important;
+  justify-content: space-around !important;
 }
 .ui-buttonset .ui-button {
   padding: 0 20px !important;
@@ -121,4 +121,20 @@
 
 .wc-select-place {
   display: none !important;
+}
+
+.ui-widget-header.wc-toolbar {
+	overflow: hidden;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.wc-title {
+	margin: 0;
+}
+
+@media screen and (max-width: 524px) {
+	.wc-display {
+		display: none;
+	}
 }
