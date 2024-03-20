@@ -1,12 +1,10 @@
-document.addEventListener("DOMContentLoaded", () => {
-	setInterval(deleteEmptyField, 300);
-	deleteEmptyField();
-	
-	// let toolbarBtns = document.querySelectorAll('.ui-button');
-	// for (let btn of toolbarBtns) {
-	// 	btn.addEventListener("click", () => setTimeout(deleteEmptyField, 1000));
-	// }
-});
+setInterval(deleteEmptyField, 300);
+deleteEmptyField();
+
+// let toolbarBtns = document.querySelectorAll('.ui-button');
+// for (let btn of toolbarBtns) {
+// 	btn.addEventListener("click", () => setTimeout(deleteEmptyField, 1000));
+// }
 
 function deleteEmptyField() {
 	let fields = document.querySelectorAll('.wc-cal-event *');
