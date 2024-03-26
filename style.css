@@ -35,6 +35,7 @@
   background-color: #ff603d !important;
   padding: 7px 0 !important;
   border-radius: 8px !important;
+  border: none;
 }
 .wc-event-style .wc-title {
   color: white !important;
