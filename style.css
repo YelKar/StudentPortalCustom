@@ -7,7 +7,7 @@
 .wc-cal-event {
   display: flex !important;
   flex-direction: column !important;
-  justify-content: center !important;
+  justify-content: safe center !important;
   background-color: white !important;
   border-radius: 10px !important;
   border: 2px solid #ff603d !important;
